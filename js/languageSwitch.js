@@ -1,12 +1,16 @@
 function toggleLanguage() {
-  const enText = document.getElementById("en-text");
-  const trText = document.getElementById("tr-text");
+  const enTextElements = document.querySelectorAll(".en-text");
+  const trTextElements = document.querySelectorAll(".tr-text");
 
-  if (enText.style.display === "none") {
-    enText.style.display = "block";
-    trText.style.display = "none";
-  } else {
-    enText.style.display = "none";
-    trText.style.display = "block";
-  }
+  enTextElements.forEach((enText, index) => {
+    const trText = trTextElements[index];
+
+    if (enText.style.display === "none") {
+      enText.style.display = "block";
+      trText.style.display = "none";
+    } else {
+      enText.style.display = "none";
+      trText.style.display = "block";
+    }
+  });
 }
