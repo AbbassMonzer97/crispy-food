@@ -19,6 +19,7 @@ body .bg-img {
 body nav {
   background: rgba(255, 255, 255, 0.1);
 }
+.lang,
 body nav .navbar-nav a {
   font-size: 16px;
   text-transform: uppercase;
