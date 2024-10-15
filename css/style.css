@@ -2,7 +2,7 @@
 :root {
   --primary: #fea116;
   --light: #f1f8ff;
-  --dark: #0f172b;
+  --dark: #000;
 }
 
 .ff-secondary {
@@ -143,11 +143,16 @@
     position: fixed;
     background: var(--dark) !important;
   }
+
+  .globe-svg {
+    margin-top: -1px;
+    margin-right: 5px;
+  }
 }
 
 .hero-header {
-  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
-    url(../img/bg-hero.jpg);
+  background: linear-gradient(rgba(15, 23, 43, 0.5), rgba(15, 23, 43, 0.5)),
+    url(../img/banner.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -472,4 +477,9 @@
 /* <!-- customized styles--> */
 .cursor-pointer {
   cursor: pointer;
+}
+
+.globe-svg {
+  margin-top: -px;
+  margin-right: 5px;
 }
