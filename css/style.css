@@ -479,3 +479,10 @@
   margin-top: -px;
   margin-right: 5px;
 }
+
+.icon-circle {
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  border-radius: 50%;
+  object-fit: cover; /* Ensures the image covers the circle area properly */
+}
