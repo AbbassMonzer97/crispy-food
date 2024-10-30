@@ -486,3 +486,43 @@
   border-radius: 50%;
   object-fit: cover; /* Ensures the image covers the circle area properly */
 }
+
+.food-icon {
+  height: 80px;
+}
+
+@media (max-width: 480px) {
+  .icon-wrapper {
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 11rem;
+  }
+
+  .icon-wrapper-2 {
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 16rem;
+  }
+
+  .icon-wrapper-3 {
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 13rem;
+  }
+
+  .icon-wrapper-4 {
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 24rem;
+  }
+
+  .icon-wrapper-5 {
+    position: absolute;
+    margin-top: -1rem;
+    margin-left: 22rem;
+  }
+
+  .food-icon {
+    height: 50px;
+  }
+}
