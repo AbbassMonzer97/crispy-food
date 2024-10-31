@@ -492,34 +492,13 @@
 }
 
 @media (max-width: 480px) {
-  .icon-wrapper {
-    position: absolute;
-    margin-top: -1rem;
-    margin-left: 11rem;
-  }
-
-  .icon-wrapper-2 {
-    position: absolute;
-    margin-top: -1rem;
-    margin-left: 16rem;
-  }
-
   .icon-wrapper-3 {
-    position: absolute;
-    margin-top: -1rem;
-    margin-left: 13rem;
+    margin-right: 5px;
   }
 
-  .icon-wrapper-4 {
-    position: absolute;
-    margin-top: -1rem;
-    margin-left: 24rem;
-  }
-
+  .icon-wrapper-4,
   .icon-wrapper-5 {
-    position: absolute;
-    margin-top: -1rem;
-    margin-left: 22rem;
+    margin-left: -25px;
   }
 
   .food-icon {
