@@ -81,13 +81,26 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-              <a href="about.html" class="nav-item nav-link">Our Story</a>
-              <a href="products.html" class="nav-item nav-link">Products</a>
-              <a href="services.html" class="nav-item nav-link">Services</a>
-              <a href="certificates.html" class="nav-item nav-link"
-                >Certificates</a
+              <a href="about.html" class="nav-item nav-link"
+                ><span class="en-text">Our Story</span
+                ><span class="tr-text">Hikayemiz</span></a
               >
-              <a href="contact.html" class="nav-item nav-link">Contact</a>
+              <a href="products.html" class="nav-item nav-link"
+                ><span class="en-text">Products</span>
+                <span class="tr-text">Ürünlerimiz</span></a
+              >
+              <a href="services.html" class="nav-item nav-link"
+                ><span class="en-text">Services</span>
+                <span class="tr-text">Hizmetlerimiz</span></a
+              >
+              <a href="certificates.html" class="nav-item nav-link"
+                ><span class="en-text">Certificates</span>
+                <span class="tr-text">Sertifikalarımız</span></a
+              >
+              <a href="contact.html" class="nav-item nav-link"
+                ><span class="en-text">Contact</span>
+                <span class="tr-text">Bize Ulaşın</span></a
+              >
 
               <a class="nav-item nav-link">
                 <div class="d-flex align-items-baseline">
@@ -127,11 +140,24 @@
                   class="text-white animated slideInLeft tr-text"
                   style="display: none"
                 >
-                  Lezzetli Yemeğimizin <br />Tadını Çıkarın
+                  Bize Ulaşın
                 </h1>
-                <p class="text-white animated slideInLeft mb-4 pb-2 mt-4">
+                <p
+                  class="text-white animated slideInLeft mb-4 pb-2 mt-4 en-text"
+                >
                   <a href="/services.html" class="btn btn-primary py-2 px-4"
                     >Discover Solutions</a
+                  >
+                </p>
+                <p
+                  class="text-white animated slideInLeft mb-4 pb-2 mt-4 tr-text"
+                  style="display: none"
+                >
+                  <a
+                    href="/services.html"
+                    class="btn btn-primary py-2 px-4"
+                    data-display="inline"
+                    >Çözümleri Keşfedin</a
                   >
                 </p>
               </div>
@@ -146,24 +172,44 @@
         <div class="container">
           <div class="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">
             <h5 class="section-title text-center text-primary fw-normal">
-              Let’s Connect!
+              <span class="en-text">Let’s Connect!</span>
+              <span class="tr-text">Bağlantıya Geçelim!</span>
             </h5>
-            <h2>Ready to enhance your frozen food offerings?</h2>
-            <h4>
+            <h2 class="en-text">
+              Ready to enhance your frozen food offerings?
+            </h2>
+            <h2 class="tr-text">
+              Dondurulmuş gıda seçeneklerinizi geliştirmeye hazır mısınız?
+            </h2>
+            <h4 class="en-text">
               Contact us today to learn more about our products and services
             </h4>
+            <h4 class="tr-text">
+              Ürünlerimiz ve hizmetlerimiz hakkında daha fazla bilgi almak için
+              bizimle iletişime geçin.
+            </h4>
           </div>
-          <div class="row g-4">
-            <div class="col-md-4">
+
+          <div class="d-flex contact-wrapper">
+            <div class="">
               <div class="dropdown">
                 <button
-                  class="btn btn-primary dropdown-toggle"
+                  class="btn btn-primary dropdown-toggle en-text"
                   type="button"
                   id="whatsappDropdown"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Chat with us on WhatsApp
+                </button>
+                <button
+                  class="btn btn-primary dropdown-toggle tr-text"
+                  type="button"
+                  id="whatsappDropdown"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Bizimle WhatsApp'ta sohbet edin
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="whatsappDropdown">
                   <li>
@@ -211,27 +257,23 @@
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="">
               <h5 class="section-title fw-normal text-start text-primary">
-                Google Meet
+                <span class="en-text">Email</span>
+                <span class="tr-text">e-posta</span>
               </h5>
               <p>
-                <img src="img/googleMeet.svg" alt="" style="margin-top: -7px" />
-                <a href="https://wa.me/12345678900" target="_blank"
-                  >Let's Meet</a
+                <i class="fa fa-envelope-open text-primary me-2"></i>
+                <a href="mailto:Support@crispyfood.com.tr" class="en-text"
+                  >Send us an email</a
+                >
+                <a href="mailto:Support@crispyfood.com.tr" class="tr-text"
+                  >Bize bir e-posta gönderin</a
                 >
               </p>
             </div>
-            <div class="col-md-4">
-              <h5 class="section-title fw-normal text-start text-primary">
-                Email
-              </h5>
-              <p>
-                <i class="fa fa-envelope-open text-primary me-2"></i
-                ><a href="mailto:Support@crispyfood.com.tr">Send us an email</a>
-              </p>
-            </div>
-
+          </div>
+          <div class="row g-4">
             <div class="col-md-12 wow fadeIn" data-wow-delay="0.1s">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.7455217745173!2d34.6589234!3d36.824617499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527f341df7a6adb%3A0x9b290d31c67dbcda!2sCrispy%20Food!5e0!3m2!1sen!2slb!4v1730979781624!5m2!1sen!2slb"
@@ -257,17 +299,34 @@
           <div class="row g-5">
             <div class="col-lg-4 col-md-6">
               <h4 class="section-title text-start text-primary fw-normal mb-4">
-                Company
+                <span class="en-text">Company</span>
+                <span class="tr-text">Şirket</span>
               </h4>
-              <a href="about.html" class="btn btn-link">Our Story</a>
-              <a href="products.html" class="btn btn-link">Products</a>
-              <a href="services.html" class="btn btn-link">Services</a>
-              <a href="certificates.html" class="btn btn-link">Certificates</a>
-              <a href="contact.html" class="btn btn-link">Contact</a>
+              <a href="about.html" class="btn btn-link d-flex"
+                ><span class="en-text">Our Story</span
+                ><span class="tr-text">Hikayemiz</span></a
+              >
+              <a href="products.html" class="btn btn-link d-flex"
+                ><span class="en-text">Products</span>
+                <span class="tr-text">Ürünlerimiz</span></a
+              >
+              <a href="services.html" class="btn btn-link d-flex"
+                ><span class="en-text">Services</span>
+                <span class="tr-text">Hizmetlerimiz</span></a
+              >
+              <a href="certificates.html" class="btn btn-link d-flex"
+                ><span class="en-text">Certificates</span>
+                <span class="tr-text">Sertifikalarımız</span></a
+              >
+              <a href="contact.html" class="btn btn-link d-flex"
+                ><span class="en-text">Contact</span>
+                <span class="tr-text">Bize Ulaşın</span></a
+              >
             </div>
             <div class="col-lg-4 col-md-6">
               <h4 class="section-title text-start text-primary fw-normal mb-4">
-                Contact
+                <span class="en-text">Contact us</span>
+                <span class="tr-text">Bize Ulaşın</span>
               </h4>
               <p class="mb-2">
                 <i class="fa fa-map-marker-alt me-3"></i>HAL MAH. Turgut Özal
@@ -283,27 +342,15 @@
               <p class="mb-2">
                 <i class="fa fa-envelope me-3"></i>Support@crispyfood.com.tr
               </p>
-              <div class="d-flex pt-2">
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-twitter"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-youtube"></i
-                ></a>
-                <a class="btn btn-outline-light btn-social" href=""
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
-              </div>
             </div>
             <div class="col-lg-4 col-md-6">
               <h4 class="section-title text-start text-primary fw-normal mb-4">
-                Opening
+                <span class="en-text">Opening</span>
+                <span class="tr-text">Çalışma Saatleri</span>
               </h4>
-              <h5 class="text-light fw-normal">Monday - Friday</h5>
-              <p>9AM- 5PM</p>
+              <h5 class="text-light fw-normal en-text">Monday - Friday</h5>
+              <h5 class="text-light fw-normal tr-text">Pazartesi - Cuma</h5>
+              <p>09:00 - 17:00</p>
             </div>
           </div>
         </div>

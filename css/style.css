@@ -509,4 +509,13 @@
   .food-icon {
     height: 50px;
   }
+
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.contact-wrapper {
+  justify-content: space-around;
 }
